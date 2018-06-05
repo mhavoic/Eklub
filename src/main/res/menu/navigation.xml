@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pocetna_menu"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/korisnik_menu"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/user_page" />
+    <item
+        android:id="@+id/natjecanja_menu"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/turnaments" />
+    <item
+        android:id="@+id/dobne_kategorije_menu"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/age_categories" />
+    <item
+        android:id="@+id/trening_menu"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/training" />
+    <item
+        android:id="@+id/statistika_menu"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/statistics" />
+
+    <item
+        android:id="@+id/utakmica_menu"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/game" />
+    <item
+        android:id="@+id/ocijene_menu"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/grades_preview" />
+    <item
+        android:id="@+id/dolazak_menu"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/arrivals" />
+    <item
+        android:id="@+id/ocijene_insert"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/grades_insert" />
+    <item
+        android:id="@+id/sprotasi_menu"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/athletes" />
+    <item
+        android:id="@+id/izlaz"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/exit" />
+
+</menu>

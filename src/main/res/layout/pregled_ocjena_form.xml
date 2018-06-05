@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/main_menu" />
+
+    <TableLayout
+        android:id="@+id/ocjeneLayout"
+        android:layout_width="363dp"
+        android:layout_height="431dp"
+        android:layout_marginTop="68dp"
+        android:background="#f0f8ff"
+        android:clickable="false"
+        android:contextClickable="true"
+        android:focusable="false"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:saveEnabled="true"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:id="@+id/naslov"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#2ccbdc"
+            android:padding="5dp" />
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

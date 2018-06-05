@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lbl_g_granica"
+        android:layout_width="352dp"
+        android:layout_height="43dp"
+        android:text="@string/upper_limit"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <TextView
+        android:id="@+id/lbl_d_granica"
+        android:layout_width="352dp"
+        android:layout_height="43dp"
+        android:text="@string/lower_limit"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/lbl_naziv"
+        android:layout_width="352dp"
+        android:layout_height="43dp"
+        android:text="@string/name_"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <EditText
+        android:id="@+id/t_name"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <EditText
+        android:id="@+id/t_donja_granica"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <EditText
+        android:id="@+id/t_gornja_granica"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <Button
+        android:id="@+id/insert_b"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/insert"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <Button
+        android:id="@+id/back_b"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="447dp" />
+</android.support.constraint.ConstraintLayout>
